@@ -45,14 +45,6 @@ export default function Dashboard({ session }) {
     setGiftIdeas('')
     setGeneratingIdeas(true)
 
-    // const prompt = `Generate 5 thoughtful gift ideas for the following person:
-Name: ${person.name}
-Relationship: ${person.relationship}
-Birthday: ${person.birthday || 'unknown'}
-Interests: ${person.interests || 'not specified'}
-Notes: ${person.notes || 'none'}
-
-For each gift idea, give it a title and a one sentence explanation of why it suits them. Format as a numbered list.`
 
     try {
 const response = await fetch('/api/generate-gift-ideas', {
