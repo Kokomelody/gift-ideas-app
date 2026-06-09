@@ -45,7 +45,7 @@ export default function Dashboard({ session }) {
     setGiftIdeas('')
     setGeneratingIdeas(true)
 
-    const prompt = `Generate 5 thoughtful gift ideas for the following person:
+    // const prompt = `Generate 5 thoughtful gift ideas for the following person:
 Name: ${person.name}
 Relationship: ${person.relationship}
 Birthday: ${person.birthday || 'unknown'}
