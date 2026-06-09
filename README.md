@@ -19,7 +19,7 @@ Never forget the perfect gift. A web app that tracks people, reminds you of upco
 
 ## Live Demo
 
-https://project-30en3.vercel.app
+https://gifts.buildingmelody.com
 
 ## Built by
 
