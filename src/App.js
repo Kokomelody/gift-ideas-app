@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { supabase } from './lib/supabase'
 import Auth from './components/Auth'
 import Dashboard from './components/Dashboard'
+import './App.css'
 
 function App() {
   const [session, setSession] = useState(null)
@@ -20,7 +21,7 @@ function App() {
     return () => subscription.unsubscribe()
   }, [])
 
-  if (loading) return <div style={{ padding: '2rem' }}>Loading...</div>
+  if (loading) return <div className="page-loading">Loading…</div>
 
   return (
     <div>
