@@ -75,7 +75,7 @@ export default function Dashboard({ session }) {
     <div className="page">
       <div className="shell">
         <div className="dash-header">
-          <h1 className="dash-title">Gift Ideas</h1>
+          <h1 className="dash-title">Goldfish Gifter</h1>
           <div className="dash-actions">
             <button onClick={() => setShowAddForm(!showAddForm)} className="btn-accent">
               Add person
